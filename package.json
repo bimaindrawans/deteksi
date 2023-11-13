@@ -1,0 +1,23 @@
+{
+    "name": "detectifbotaremusic",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "author": "Rey",
+    "license": "MIT",
+    "scripts": {
+      "start": "node src/index.js",
+      "dev": "node src/index.js",
+      "build": "find ./src -name \"*.js\" -type f -delete && tsc",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "consola": "^2.15.3",
+      "discord.js": "^13.3.1",
+      "dotenv": "^8.2.0",
+      "glob": "^7.1.6",
+      "monk": "^7.3.4"
+    },
+    "devDependencies": {
+      "typescript": "^4.2.4"
+    }
+  }
